@@ -1,0 +1,148 @@
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: #304438;
+}
+
+.btn{
+    padding: 12px 50px;
+    font-size: 20px ;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 0;
+    transition: all ease-in .5s;
+    
+}
+
+.btn-brand{
+    background-color: #304438;
+    color: #FFF;
+}
+
+.btn-brand:hover{
+    border: 2px solid #304438;
+}
+.navbar .nav-link {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color:#304438;
+    text-transform: uppercase;
+}
+
+#banner {
+    background: url('bg.jpg');
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#banner h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size:  70px;
+}
+
+#banner p{
+    font-size: 25px;
+    color:#FFF;
+}
+
+section{
+    padding: 100px 0;
+}
+.card-img-top{
+    width: 50%;
+}
+
+.card{
+    border-radius: 0;
+    margin-top: 30px;
+    border: 3px solid #304438;
+    padding: 20px;
+}
+
+.card .card-title{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+#x h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size:  50px;
+}
+
+#about .ngee {
+    height:80vh;
+    background: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#about .eyy{
+    padding:100px;
+}
+
+#about h2, #about h4 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#about{
+    background-color: #fafafa;
+}
+
+.testimonials {
+    border: 4px solid #304438;
+    padding: 20px;
+    margin-top: 20px;
+}
+.testimonials img{
+    width: 75px;
+    border-radius: 50%;
+}
+
+#faq{
+    background: gray;
+
+}
+.faq-section {
+    max-width:800px;
+    margin: auto;
+
+
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius:  0 !important;
+}
+
+.accordion-button{
+    background-color: beige;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.accordion-body {
+    border-left: 3px solid #be8f50;
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9fa;
+
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #be8f50;
+    color: #FFF;
+}
+
+.accordion-button:hover {
+    background-color: #be8f50;
+    color: #FFF;
+}
